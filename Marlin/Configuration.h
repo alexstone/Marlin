@@ -78,7 +78,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "Aaron Just, CR-10 V3)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "Alex Stone, CR-10 V3)" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -1365,7 +1365,7 @@
 
 // For direct drive extruder v9 set to true, for geared extruder set to false.
 // Updated INVERT_E0_DIR for CR-10 V3 Direct Drive
-#define INVERT_E0_DIR true
+#define INVERT_E0_DIR false
 #define INVERT_E1_DIR false
 #define INVERT_E2_DIR false
 #define INVERT_E3_DIR false
